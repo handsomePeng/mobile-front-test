@@ -4,6 +4,12 @@
   "description": "My solid Nuxt.js project",
   "author": "jingxinTechnology",
   "private": true,
+  "config": {
+    "nuxt": {
+      "host": "0.0.0.0",
+      "port": 3004
+    }
+  },
   "scripts": {
     "dev": "nuxt --hostname 192.168.0.135 --port 3001",
     "build": "nuxt build",
