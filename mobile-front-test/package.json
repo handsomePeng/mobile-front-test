@@ -1,0 +1,22 @@
+{
+  "name": "mobile-front",
+  "version": "1.0.0",
+  "description": "My solid Nuxt.js project",
+  "author": "jingxinTechnology",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt --hostname 192.168.0.135 --port 3001",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.9.5",
+    "node-sass": "^4.13.1",
+    "nuxt": "^2.0.0",
+    "vant": "^2.5.4"
+  },
+  "devDependencies": {
+    "sass-loader": "^8.0.2"
+  }
+}
