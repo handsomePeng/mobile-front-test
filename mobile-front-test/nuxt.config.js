@@ -80,4 +80,8 @@ export default {
     '~assets/css/reset.css',
     '~assets/css/public.scss',
   ],
+  server: {
+    port: 3004, // default: 3000
+    host: '0.0.0.0', // default: localhost,
+  },
 }
