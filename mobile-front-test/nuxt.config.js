@@ -58,7 +58,8 @@ export default {
   },
   proxy: {
     '/api': {
-      target: 'http://192.168.0.135:8086',
+      target: 'https://6a140973.ngrok.io',
+      //target: 'http://192.168.0.135:8086',
       changeOrigin: true,
       pathRewrite: {
         '^/api': '', //将 /api 替换掉
